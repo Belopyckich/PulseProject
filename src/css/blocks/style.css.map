@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM,CACF,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,aAAa,CACtB,UAAU,CAAE,gEAAkE,CCDlF,CACA,CACE,WAAW,CAAE,6BAA6B,CAE5C,UAAU,CACR,SAAS,CAAE,KAAK,CAChB,UAAU,CAAE,MAAM",
+"sources": ["../../sass/blocks/_promo.scss","../../sass/blocks/style.scss"],
+"names": [],
+"file": "style.css"
+}

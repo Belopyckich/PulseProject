@@ -19,5 +19,9 @@
   "dependencies": {
     "sass": "^1.35.1"
   },
-  "description": ""
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }

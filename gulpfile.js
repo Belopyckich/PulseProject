@@ -19,7 +19,7 @@ gulp.task('server', function() {
 
 gulp.task('styles', function() {
     //берет sass и css стили
-    return gulp.src("src/sass/*.+(scss|sass)")
+    return gulp.src("src/sass/**/*.+(scss|sass)")
         //команда для компиляции sass, стиль сжатый, вывод ошибки
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         //файл компилируется в style.min.css
@@ -35,7 +35,7 @@ gulp.task('styles', function() {
 gulp.task('watch', function() {
     //gulp будет следить за файлами, если изменится файл то запустится styles
     gulp.watch("src/sass/**/*.+(scss|sass)", gulp.parallel('styles'));
-    gulp.watch("src/*.html").on("change",browserSync.reload)
+    gulp.watch("src/*.html").on('change',browserSync.reload)
 })
 //задача по умолчанию
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
