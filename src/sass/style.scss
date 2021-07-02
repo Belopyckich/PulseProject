@@ -1,4 +1,5 @@
 @import '../sass/base/variables';
+@import '../sass/blocks/titles';
 *
 {
   font-family: 'Museo Sans Cyrl', sans-serif;
@@ -11,4 +12,6 @@
 @import '../sass/blocks/header';
 @import '../sass/blocks/buttons';
 @import '../sass/blocks/advantages';
+@import '../sass/blocks/consultation';
+@import '../sass/blocks/forms';
 @import '../sass/base/media';
