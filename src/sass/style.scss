@@ -5,6 +5,7 @@
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
 .container{
+  position: relative;
   max-width: 950px;
   margin: 0 auto;
 }
@@ -14,4 +15,6 @@
 @import '../sass/blocks/advantages';
 @import '../sass/blocks/consultation';
 @import '../sass/blocks/forms';
+@import '../sass/blocks/carousel';
+@import '../sass/blocks/catalog.scss';
 @import '../sass/base/media';
