@@ -9,6 +9,7 @@
         img
         {
             margin: 0 auto;
+            max-width: 600px;
         }
     }
     .slick-prev, .slick-next {
@@ -33,5 +34,34 @@
             display: block;
             margin: 0 auto;
         }
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 15px 0;
+        list-style-type: none;
+        
+            li {
+                margin: 0 0.25rem;
+            }
+        
+            button {
+                display: block;
+                width: 15px;
+                height: 15px;
+                padding: 0;
+                
+                border: none;
+                border-radius: 100%;
+                background-color: #4b4b4b;
+                
+                text-indent: -9999px;
+            }
+        
+            li.slick-active button {
+                background-color: $main-color;
+            }
+        
     }
 }
