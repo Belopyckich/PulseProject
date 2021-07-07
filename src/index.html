@@ -76,9 +76,9 @@
             <div class="consultation__descr">
                 Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут
             </div>
-            <form class="feed-form" action="#">
+            <form id="consultation-form" class="feed-form" action="#">
                     <input name="name" required placeholder="Ваше имя" type="text">
-                    <input name="phone" required placeholder="Ваше телефон" type="number">
+                    <input name="phone" required placeholder="Ваше телефон">
                     <input name="email" required placeholder="Ваше E-mail" type="email">
                     
                     <button class="button button_submit">Заказать консультацию</button>
@@ -424,7 +424,7 @@
             <div class="model__descr">и мы перезвоним вам в течение 10 минут</div>
             <form class="feed-form feed-form_mt25" action="#">
                 <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваше телефон" type="number">
+                <input name="phone" required placeholder="Ваше телефон">
                 <input name="email" required placeholder="Ваше E-mail" type="email">
                 
                 <button class="button button_submit">Заказать консультацию</button>
@@ -436,15 +436,15 @@
             <div class="model__subtitle">Ваш заказ:</div>
             <div class="model__descr">Пульсометр Polar FT1</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваше телефон" type="number">
-                <input name="email" required placeholder="Ваше E-mail" type="email">
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваше телефон">
+                <input name="email" placeholder="Ваше E-mail" type="email">
                 
                 <button class="button button_submit">купить</button>
         </form>
         </div>
 
-        <div class="model model__mini" id="exit">
+        <div class="model model__mini" id="thanks">
             <div class="model__close">&times;</div>
             <div class="model__subtitle">Спасибо за вашу заявку!</div>
             <div class="model__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
@@ -453,6 +453,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

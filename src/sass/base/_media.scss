@@ -27,12 +27,6 @@
             max-width: 850px;
         }
     }
-    .carousel
-    {
-        .slick-prev, .slick-next 
-        {
-        }
-    }
 }
 @media (max-width: 991px)
 {
@@ -94,11 +88,8 @@
         margin-right: 50px;
         width: 150px;
         height: 150px;
+        
     }
-    .catalog__tab {
-        width: 170px;
-    }
-
     .promo
     {
         &__wrapper{
@@ -127,10 +118,26 @@
             margin-top: 65px;
         }
     }
-    .catalog__content_active 
+    .catalog
     {
-        align-content: center;
-        flex-direction: column;
+        &__content_active 
+        {
+            align-content: center;
+            flex-direction: column;
+        }
+        &__tab {
+        width: 170px;
+        }
+    }
+
+
+    .footer
+    {
+        &__info 
+        {
+        width: 360px;
+        height: 230px;
+        }
     }
 }
 @media (max-width: 575px)
@@ -150,6 +157,7 @@
         &__peoples
         {
             margin: 0;
+            margin-bottom: 71px;
         }
 
         &__descr
@@ -273,6 +281,36 @@
         {
         margin-top: 50px;
         font-size: 15px;
+        }
+    }
+    .footer
+    {
+        &__info
+        {
+            padding: 30px 38px 30px 38px;
+            width: 100%;
+        }
+        &__address, &__tel
+        {
+            font-size: 17px;
+        }
+        &__social
+        {
+            margin-top: 28px;
+        }
+    }
+
+    .model
+    {
+        width: 250px;
+        padding: 18px;
+        &__descr
+        {
+            margin-top: 20px;
+        }
+        .feed-form
+        {
+        width: 200px;
         }
     }
 }
